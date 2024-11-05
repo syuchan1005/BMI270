@@ -2542,7 +2542,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R3"
-			(at 3.085 0.544441 0)
+			(at 2.349 -0.15 0)
 			(layer "F.SilkS")
 			(uuid "893a4ac0-ab4f-451b-b747-69d1b28c11cb")
 			(effects
@@ -3841,6 +3841,17 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "J1\n"
+		(at 139.954 108.862 90)
+		(layer "F.SilkS")
+		(uuid "bf5346d4-02a9-4ee7-80ca-5ca22c0d3141")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "X"
 		(at 140.25 103.92 180)
 		(layer "F.SilkS")
@@ -4606,7 +4617,7 @@
 		(uuid "bf77efce-a81f-4efe-b89b-cbf4d50cf47d")
 	)
 	(via
-		(at 138.43 108.1)
+		(at 139.192 108.1)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -4694,6 +4705,14 @@
 		(uuid "4d59157f-a42d-4ecb-9183-f9a0fb63fea4")
 	)
 	(segment
+		(start 139.192 106.738)
+		(end 139.7 106.23)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "552c4ac7-c301-4ef3-94f0-15609223392c")
+	)
+	(segment
 		(start 139.7 107.743654)
 		(end 142.596346 110.64)
 		(width 0.2)
@@ -4708,14 +4727,6 @@
 		(layer "B.Cu")
 		(net 11)
 		(uuid "7aeef753-7026-4269-9557-67faa72b59f4")
-	)
-	(segment
-		(start 139.7 106.23)
-		(end 138.43 107.5)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 11)
-		(uuid "8518b798-45c9-4aab-9972-4f225cd9c774")
 	)
 	(segment
 		(start 145.693654 101.75)
@@ -4734,20 +4745,20 @@
 		(uuid "de364221-6cbd-445c-a9cf-ce5166a538fa")
 	)
 	(segment
-		(start 138.43 107.5)
-		(end 138.43 108.1)
-		(width 0.2)
-		(layer "B.Cu")
-		(net 11)
-		(uuid "dfc8dfde-28eb-43a7-b3bf-4703ca9a48b3")
-	)
-	(segment
 		(start 143.51 103.02)
 		(end 140.3 106.23)
 		(width 0.2)
 		(layer "B.Cu")
 		(net 11)
 		(uuid "e052d636-12bd-46fb-9706-d4bf53f639d1")
+	)
+	(segment
+		(start 139.192 108.1)
+		(end 139.192 106.738)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "fb81ed44-db92-4f40-887a-420a855010fc")
 	)
 	(segment
 		(start 141.663696 105.31)
